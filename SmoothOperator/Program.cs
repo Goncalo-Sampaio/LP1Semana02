@@ -16,6 +16,9 @@ namespace SmoothOperator
             //Shows the user a decrement of n and an increment of n
             Console.WriteLine(--n);
             Console.WriteLine(++n);
+
+            //Shows the user the division of n for 2
+            Console.WriteLine(n/2);
         }
     }
 }
