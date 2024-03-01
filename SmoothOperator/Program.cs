@@ -25,6 +25,9 @@ namespace SmoothOperator
 
             //Shows the user a xor with 5
             Console.WriteLine(n ^ 5);
+
+            //Shows the user if n is bigger than 10 or not
+            Console.WriteLine(n > 10);
         }
     }
 }
