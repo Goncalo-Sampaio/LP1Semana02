@@ -41,10 +41,15 @@ namespace ValoresEspeciais
             //Showing overflow in uint to the user
             uint i = ushort.MaxValue;
             Console.WriteLine((ushort) (i + 1));
-            
+
             //Showing 2 types of float overflow to the user
             Console.WriteLine(2 * float.MaxValue);
             Console.WriteLine(float.MaxValue + 1);
+
+            //Showing float underflow result to the user
+            float f1, f2;
+            f1 = f2 = 1000.0f;
+            Console.WriteLine(f1 == f2 + 0.00003f);
         }
     }
 }
