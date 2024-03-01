@@ -12,6 +12,10 @@ namespace SmoothOperator
             //Saves the input in a string variable and parses it into a byte var
             string userInput = Console.ReadLine();
             byte n = byte.Parse(userInput);
+
+            //Shows the user a decrement of n and an increment of n
+            Console.WriteLine(--n);
+            Console.WriteLine(++n);
         }
     }
 }
