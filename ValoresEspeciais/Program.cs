@@ -37,6 +37,10 @@ namespace ValoresEspeciais
             Console.WriteLine(double.PositiveInfinity);
             Console.WriteLine(double.PositiveInfinity/double.PositiveInfinity);
             Console.WriteLine(float.NaN);
+
+            //Showing uint overflow to the user
+            uint i = ushort.MaxValue;
+            Console.WriteLine((ushort) (i + 1));
         }
     }
 }
