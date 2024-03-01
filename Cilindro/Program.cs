@@ -17,7 +17,11 @@ namespace Cilindro
 
             //Calculate volume and surface area
             float volume = MathF.PI * MathF.Pow(radius, 2) * height;
-            float surface = 2 * MathF.PI * radius * (radius * height);
+            float surface = 2 * MathF.PI * radius * (radius + height);
+
+            //Shows the user the cylinder's volume and surface area
+            Console.WriteLine(volume);
+            Console.WriteLine(surface);
         }
     }
 }
