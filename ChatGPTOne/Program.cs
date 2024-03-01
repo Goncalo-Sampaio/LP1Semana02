@@ -23,6 +23,18 @@ namespace ChatGPTOne
                         exit = true;
                         answer = "Goodbye!";
                         break;
+                    case "What's the best color?":
+                        answer = "Blue";
+                        break;
+                    case "What's 1 + 1?":
+                        answer = "2";
+                        break;
+                    case "What's this class?":
+                        answer = "Linguagens de Programação I";
+                        break;
+                    case "Are you sentient?":
+                        answer = "Of course!";
+                        break;
                     default:
                         answer = "I don't understand your question...";
                         break;
