@@ -16,7 +16,7 @@ namespace ChatGPTOne
                 Console.Write("What's your question? ");
                 question = Console.ReadLine();
 
-                //check if its a know question or if the user wants to quit
+                //check if its a known question or if the user wants to quit
                 switch (question)
                 {
                     case "EXIT":
