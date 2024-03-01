@@ -6,7 +6,11 @@ namespace Cilindro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("Please insert the cylinder's height: ");
+            string height = Console.ReadLine();
+
+            Console.Write("Please insert the cylinder's radius: ");
+            string radius = Console.ReadLine();
         }
     }
 }
