@@ -17,8 +17,11 @@ namespace SmoothOperator
             Console.WriteLine(--n);
             Console.WriteLine(++n);
 
-            //Shows the user the division of n for 2
+            //Shows the user the division of n by 2
             Console.WriteLine(n/2);
+
+            //Shows the user a shift left of n by 3
+            Console.WriteLine(n << 3);
         }
     }
 }
