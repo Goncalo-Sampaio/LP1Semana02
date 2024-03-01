@@ -22,6 +22,9 @@ namespace SmoothOperator
 
             //Shows the user a shift left of n by 3
             Console.WriteLine(n << 3);
+
+            //Shows the user a xor with 5
+            Console.WriteLine(n ^ 5);
         }
     }
 }
