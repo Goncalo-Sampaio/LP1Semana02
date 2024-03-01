@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmoothOperator", "SmoothOperator\SmoothOperator.csproj", "{B85997B0-C90E-4109-A1B2-89935338F72A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cilindro", "Cilindro\Cilindro.csproj", "{C05BEEFC-A0B8-4E4B-8121-F26816757455}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{B85997B0-C90E-4109-A1B2-89935338F72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B85997B0-C90E-4109-A1B2-89935338F72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B85997B0-C90E-4109-A1B2-89935338F72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05BEEFC-A0B8-4E4B-8121-F26816757455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05BEEFC-A0B8-4E4B-8121-F26816757455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05BEEFC-A0B8-4E4B-8121-F26816757455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05BEEFC-A0B8-4E4B-8121-F26816757455}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
