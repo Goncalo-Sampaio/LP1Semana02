@@ -22,8 +22,9 @@ namespace MagicGun
                 {
                     Console.WriteLine($"{i}: Electric Fire!");
                 }
+                else
                 {
-                    Console.WriteLine(i);
+                    Console.WriteLine($"{i}: Normal fire :/");
                 }
             }
         }
