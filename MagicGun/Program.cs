@@ -11,7 +11,7 @@ namespace MagicGun
             int n = int.Parse(input);
 
             for (int i = 1; i <= n; i ++) {
-                Console.WriteLine(n);
+                Console.WriteLine(i);
             }
         }
     }
