@@ -38,9 +38,13 @@ namespace ValoresEspeciais
             Console.WriteLine(double.PositiveInfinity/double.PositiveInfinity);
             Console.WriteLine(float.NaN);
 
-            //Showing uint overflow to the user
+            //Showing overflow in uint to the user
             uint i = ushort.MaxValue;
             Console.WriteLine((ushort) (i + 1));
+            
+            //Showing 2 types of float overflow to the user
+            Console.WriteLine(2 * float.MaxValue);
+            Console.WriteLine(float.MaxValue + 1);
         }
     }
 }
