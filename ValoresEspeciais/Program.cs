@@ -31,6 +31,12 @@ namespace ValoresEspeciais
             Console.WriteLine(double.MinValue);
             Console.WriteLine(decimal.MaxValue);
             Console.WriteLine(decimal.MinValue);
+
+            //Showing the user special values
+            Console.WriteLine(double.NegativeInfinity);
+            Console.WriteLine(double.PositiveInfinity);
+            Console.WriteLine(double.PositiveInfinity/double.PositiveInfinity);
+            Console.WriteLine(float.NaN);
         }
     }
 }
